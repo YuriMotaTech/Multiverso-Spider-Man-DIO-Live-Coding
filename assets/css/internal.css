@@ -11,6 +11,11 @@
     flex-flow: row nowrap;
 }
 
+.s-wrapper video{
+    position: fixed;
+    width: 100%;
+}
+
 /* COLUNA DE NAVEGAÇÃO LATERAL */
 
 .s-wrapper .s-left-column{
@@ -31,8 +36,8 @@
 .s-wrapper .s-main-content{
     width: 100%;
     height: 100%;
-    background-color: gray;
     padding-left: 130px;
+    position: relative;
 }
 
 .s-wrapper .s-main-content .s-main-content__top{
@@ -80,6 +85,10 @@
     flex-direction: row;
 }
 
+/* BACKGROUND IMAGE */
+
+/* TOBEY MAGUIRE */
+
 .s-spiderman-01-01{     
     background-image: url('../images/spiderman-tobey/movie-01/background.png');
     background-size: cover;
@@ -92,5 +101,34 @@
 
 .s-spiderman-01-03{     
     background-image: url('../images/spiderman-tobey/movie-03/background.png');
+    background-size: cover;
+}
+
+/* ANDREW GARFIELD */
+
+.s-spiderman-02-01{     
+    background-image: url('../images/spiderman-andrew/movie-01/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-02-02{     
+    background-image: url('../images/spiderman-andrew/movie-02/background.png');
+    background-size: cover;
+}
+
+/* TOM HOLLAND */
+
+.s-spiderman-03-01{     
+    background-image: url('../images/spiderman-tom/movie-01/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-03-02{     
+    background-image: url('../images/spiderman-tom/movie-02/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-03-03{     
+    background-image: url('../images/spiderman-tom/movie-03/background.png');
     background-size: cover;
 }
